@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        MAVEN_HOME = tool 'Maven3' // Assumes you have configured Maven as a tool in Jenkins
+        MAVEN_HOME = tool 'maven_3' // Assumes you have configured Maven as a tool in Jenkins
         TOMCAT_URL = 'http://localhost:8080' // Update with your Tomcat URL
         TOMCAT_MANAGER_USERNAME = 'tomcat'
         TOMCAT_MANAGER_PASSWORD = 'tomcat'
